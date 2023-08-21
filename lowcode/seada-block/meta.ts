@@ -81,7 +81,9 @@ const SeadaBlockMeta: IPublicTypeComponentMetadata = {
     supports: {
       style: true,
     },
-    component: {},
+    component: {
+      isContainer: true,
+    },
   },
 };
 const snippets: IPublicTypeSnippet[] = [
